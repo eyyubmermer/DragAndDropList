@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    display:flex;
+    background-color: burlywood;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    
+}
+
+.container{
+    background-color:brown;
+    padding:40px;
+    max-width: 460px;
+    width:100%;
+    border:10px solid #000;
+}
+
+
+
+
+.container .item{
+    display:flex;
+    border:2px solid #000;
+    background-color: burlywood;
+    color:brown;
+    padding: 12px 17px;
+    margin-bottom:20px;
+    align-items:center;
+    justify-content: space-between;
+    cursor:pointer;
+
+}
+
+.container .item i{
+    font-size: 30;
+    font-weight: bold;
+}
+
